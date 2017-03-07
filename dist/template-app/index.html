@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InteraxGUI</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/photon.min.css">
+    <link rel="stylesheet" href="../custom/customCSS.css">
+    <link rel="stylesheet" href="../../node_modules/electron-tabs/electron-tabs.css">
+    <!-- Javascript -->
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/renderer.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="window">
+      <!-- Your app's content goes inside .window-content -->
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane gray-background">
+            <div class="custom-etabs-tabgroup">
+                <div class="tab-group pane-one-third">
+                  <button class="custom-tab-item" id="launcher">
+                    Launcher
+                  </button>
+                  <button class="custom-tab-item" id="sequences">
+                    Sequences
+                  </button>
+                  <button class="custom-tab-item" id="schedules">
+                    Schedules
+                  </button>                  
+                </div>
+            </div>
+            <div id="laucher_content"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+  $(document).ready( function() {
+      $("#laucher_content").load("schedules.html");
+      $("#launcher").on("click", function() {
+        $("#laucher_content").load("launcher.html");
+      });
+      $("#sequences").on("click", function() {
+        $("#laucher_content").load("sequences.html");
+      });
+      $("#schedules").on("click", function() {
+        $("#laucher_content").load("schedules.html");
+      });
+  });
+</script>
+</html>

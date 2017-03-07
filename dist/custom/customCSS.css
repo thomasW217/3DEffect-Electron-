@@ -1,0 +1,352 @@
+/*!
+ * =====================================================
+ * Custom Style Sheet
+ * Copyright 2017 Martin Decat
+ *
+ * v0.1.2 designed by @martin0205.
+ * =====================================================
+ */
+.title-padding {
+  margin-left: 10px
+}
+
+.title-padding-height {
+  margin-top: 20px
+}
+
+.title-padding-large {
+  margin-left: 260px;
+  margin-top: 10px;
+}
+
+.title-padding-more {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.title-padding-less {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.comment-padding {
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: center
+}
+
+body {
+  background-color: 'gray'
+}
+
+.fixed-height {
+  width: 150px;
+  height: 550px;
+  overflow-y: scroll;
+  border: 1px;
+  border-style: solid;
+  border-color: #7A7A7A;
+  margin-left: 10px;
+}
+
+.gray-background {
+  background-color: #C0C0C0;
+}
+
+.comment-area {
+  display: flex;
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  border: 1px;
+  border-color: #7A7A7A;
+  border-style: solid;
+  margin-top: 10px;
+  justify-content: center;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.horizontal-window {
+  display: flex;
+  flex-direction: row;
+}
+
+.effect-view {
+  width: 720px;
+  height: 500px;
+  margin-left: 30px;
+  overflow-y: scroll;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7A7A7A
+}
+
+.effect-view-large {
+  width: 800px;
+  height: 720px;
+  overflow-y: scroll;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7A7A7A;
+  margin-left: 10px;
+  margin-top: 10px
+}
+
+.schedule-view-large {
+  width: 960px;
+  height: 650px;
+  overflow-y: scroll;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7A7A7A;
+  margin-left: 10px;
+  margin-top: 10px
+}
+
+.advis-view {
+  width: 980px;
+  height: 100px;
+  margin-left: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7A7A7A;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex
+}
+
+.effect-first-row {
+  margin-left: 10px;
+  width: 220px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+.effect-first-row-large {
+  margin-left: 10px;
+  width: 260px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+.button-view {
+  width: 260px;
+  height: 500px;
+}
+
+.effect-second-row {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 220px;
+  height: 220px;
+}
+
+.bold-text {
+  font-size: 17px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.effect-button {
+  width: 220px;
+  height: 220px;
+  background-color: transparent;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.effect-button-large {
+  width: 240px;
+  height: 220px;
+  background-color: transparent;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.main-button {
+  width: 250px;
+  height: 30px;
+  background-color: #9C9C9C;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.medium-button {
+  width: 110px;
+  height: 30px;
+  background-color: #9C9C9C;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  font-size: 11px;
+}
+
+.medium-schedule-button {
+  width: 170px;
+  height: 30px;
+  background-color: #9C9C9C;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  font-size: 11px;
+}
+
+.small-button {
+  width: 80px;
+  height: 25px;
+  background-color: #9C9C9C;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  font-size: 11px;
+}
+
+.large-button {
+  width: 250px;
+  height: 50px;
+  background-color: #9C9C9C;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  font-size: 18px;
+}
+
+.large-padding {
+  margin-top: 60px;
+}
+
+.mini-padding {
+  margin-top: 10px;
+}
+
+.comment-view {
+  width: 250px;
+  height: 180px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  align-content: center;
+  flex-direction: column;
+  display: flex
+}
+
+.text-center {
+  text-align: center
+}
+
+.custom-etabs-tabgroup {
+    width: 100%;
+    height: 26px;
+    background-color: #ccc;
+    cursor: default;
+    font-size: 14px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.custom-etabs-views {
+    border: none;
+    height: calc(100vh - 33px);
+}
+
+.custom-tab-item {
+  height: 26px;
+  position: relative;
+  flex: 1;
+  padding: 3px;
+  font-size: 12px;
+  text-align: center;
+  border-left: 0px solid #989698;
+  border-bottom: none;
+  background-color: #f0f0f0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f1f1f1), color-stop(100%, #f2f2f2));
+  background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #f2f2f2 100%);
+  background-image: linear-gradient(to bottom, #f1f1f1 0%, #f2f2f2 100%);
+}
+
+.sequence-list {
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: #BFB3A9;
+  border-style: solid;
+}
+
+.schedule-list {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: #BFB3A9;
+  border-style: solid;
+}
+
+.schedule-button-list {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.effect-list {
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: #BFB3A9;
+  border-style: solid;
+}
+
+.sequence-column {
+  width: 348px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0F8FF;
+}
+
+.schedule-column {
+  width: 198px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0F8FF;
+}
